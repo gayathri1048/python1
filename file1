@@ -2,9 +2,16 @@ x=int(input())
 y=int(input())
 z=int(input())
 if(x>y && x>z):
-  print(x)
+  print(x+" is greatest number")
+  if(z==y):
+    print(z+" "+y+" are equal)
 elif(y>z && y>x):
-  print(y)
+  print(y+" is greatest number")
+  if(x==z):
+    print(x+" "+z+"are equal")
 else:
-print(z)
+  print("print(z+" is greatese number")
+  if(x==y):
+    print(x+" "+y+" are equal")
+    
 
